@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7pc;
+    background-image: url(https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    gap: 30px;
+
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(63, 66, 66);
+    padding: 0 20px;
+    color: white;
+}
+
+.borderRa {
+    border-radius: 10px;
+}
+
+.card {
+    width: 600px;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+}
+
+.imagen1 {
+    width: 13pc;
+    position: absolute;
+    top: 65px;
+    left: 18%;
+}
+
+.number {
+    position: relative;
+    height: 14pc;
+    width: 100%;
+    background: white;
+    color: black;
+    font-family: fantasy;
+    opacity: 0.09;
+    text-align: center;
+    font-size: 06pc;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 20pc);
+    justify-content: center;
+    gap: 40pc;
+}
+
+.containerInfo {
+    padding: 0 1pc;
+    font-family: fantasy;
+    font-size: 1pc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.containerInfo h5 {
+    display: flex;
+    justify-content: space-between;
+    letter-spacing: 1px;
+}
+
+.centrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1pc;
+}
+
+.border {
+    padding: 3px;
+    margin: 0;
+    border-radius: 6px;
+}
+.card:hover {
+    background-color: grey;
+    color: white;
+}
+
+.card:hover .number {
+    opacity: 1;
+    font-size: 8pc;
+}
+
+.card:hover .imagen1 {
+    width: 18pc;
+    top: -9px;
+    left: 8%;
+}
+*{
+    transition: all ease 0.9s;
+}
+
+h1{
+    color: lightseagreen;
+    background-color: white;
+    width: 40pc;
+}
